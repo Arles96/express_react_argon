@@ -1,0 +1,26 @@
+{
+  "name": "express-react-semantic-graphql",
+  "version": "1.0.0",
+  "description": "Boilerplate para express react y graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "start, dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arles96/express-react-semantic-graphql.git"
+  },
+  "keywords": [
+    "express",
+    "react",
+    "graphql",
+    "semantic-ui",
+    "apollo"
+  ],
+  "author": "Arles",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Arles96/express-react-semantic-graphql/issues"
+  },
+  "homepage": "https://github.com/Arles96/express-react-semantic-graphql#readme"
+}
