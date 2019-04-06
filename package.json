@@ -4,7 +4,8 @@
   "description": "Boilerplate para express react y graphql",
   "main": "index.js",
   "scripts": {
-    "test": "start, dev"
+    "dev": "nodemon server/index.js",
+    "webpack": "webpack --mode development"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,26 @@
   "bugs": {
     "url": "https://github.com/Arles96/express-react-semantic-graphql/issues"
   },
-  "homepage": "https://github.com/Arles96/express-react-semantic-graphql#readme"
+  "homepage": "https://github.com/Arles96/express-react-semantic-graphql#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "connect-flash": "^0.1.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.4.22",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "nodemon": "^1.18.10",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
 }
