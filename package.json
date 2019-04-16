@@ -4,7 +4,7 @@
   "description": "Boilerplate para express react y graphql",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server/index.js",
+    "dev": "concurrently \"nodemon server/index.js\" \"webpack --mode development --watch\"",
     "webpack": "webpack --mode development"
   },
   "repository": {
@@ -39,9 +39,14 @@
     "@babel/preset-env": "^7.4.3",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
+    "concurrently": "^4.1.0",
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.11.0",
     "nodemon": "^1.18.10",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
   }
